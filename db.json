@@ -1,0 +1,721 @@
+{
+  "clients": [
+    {
+      "uniqClient": 101,
+      "clientLookupCode": "CL12345678",
+      "accountName": "John Doe - Personal Account",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@email.com",
+      "phone": "+44 7700 900123",
+      "dateOfBirth": "1985-03-15T00:00:00.000Z",
+      "createdDate": "2023-01-10T00:00:00.000Z",
+      "isActive": true
+    },
+    {
+      "uniqClient": 102,
+      "clientLookupCode": "CL87654321",
+      "accountName": "Jane Smith - Business Account",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane.smith@email.com",
+      "phone": "+44 20 7946 0958",
+      "dateOfBirth": "1990-07-22T00:00:00.000Z",
+      "createdDate": "2023-02-15T00:00:00.000Z",
+      "isActive": true
+    },
+    {
+      "uniqClient": 103,
+      "clientLookupCode": "CL11223344",
+      "accountName": "Mike Johnson - Family Account",
+      "firstName": "Mike",
+      "lastName": "Johnson",
+      "email": "mike.johnson@email.com",
+      "phone": "+44 161 496 0123",
+      "dateOfBirth": "1978-11-08T00:00:00.000Z",
+      "createdDate": "2023-03-20T00:00:00.000Z",
+      "isActive": true
+    },
+    {
+      "uniqClient": 104,
+      "clientLookupCode": "CL99887766",
+      "accountName": "Sarah Wilson - Premium Account",
+      "firstName": "Sarah",
+      "lastName": "Wilson",
+      "email": "sarah.wilson@email.com",
+      "phone": "+44 7700 900456",
+      "dateOfBirth": "1992-05-30T00:00:00.000Z",
+      "createdDate": "2023-04-05T00:00:00.000Z",
+      "isActive": true
+    },
+    {
+      "uniqClient": 105,
+      "clientLookupCode": "CL55443322",
+      "accountName": "David Brown - Corporate Account",
+      "firstName": "David",
+      "lastName": "Brown",
+      "email": "david.brown@email.com",
+      "phone": "+44 113 496 0789",
+      "dateOfBirth": "1987-09-12T00:00:00.000Z",
+      "createdDate": "2023-05-18T00:00:00.000Z",
+      "isActive": true
+    }
+  ],
+  "contactAddresses": [
+    {
+      "uniqContactAddress": 1,
+      "clientId": 101,
+      "descriptionOf": "Primary Home",
+      "addressLine1": "123 High Street",
+      "addressLine2": "",
+      "addressLine3": "",
+      "city": "London",
+      "postCode": "SW1A 1AA",
+      "insertedDate": "2023-01-10T00:00:00.000Z"
+    },
+    {
+      "uniqContactAddress": 2,
+      "clientId": 101,
+      "descriptionOf": "Work Office",
+      "addressLine1": "456 Business Park",
+      "addressLine2": "Suite 200",
+      "addressLine3": "",
+      "city": "London",
+      "postCode": "EC1A 1BB",
+      "insertedDate": "2023-01-15T00:00:00.000Z"
+    },
+    {
+      "uniqContactAddress": 3,
+      "clientId": 102,
+      "descriptionOf": "Home Address",
+      "addressLine1": "456 Oak Avenue",
+      "addressLine2": "Flat 3B",
+      "addressLine3": "",
+      "city": "Manchester",
+      "postCode": "M1 1AA",
+      "insertedDate": "2023-02-15T00:00:00.000Z"
+    },
+    {
+      "uniqContactAddress": 4,
+      "clientId": 102,
+      "descriptionOf": "Business",
+      "addressLine1": "789 Corporate Drive",
+      "addressLine2": "Floor 15",
+      "addressLine3": "Suite 1501",
+      "city": "Manchester",
+      "postCode": "M2 2BB",
+      "insertedDate": "2023-02-20T00:00:00.000Z"
+    },
+    {
+      "uniqContactAddress": 5,
+      "clientId": 103,
+      "descriptionOf": "Primary",
+      "addressLine1": "789 Pine Road",
+      "addressLine2": "",
+      "addressLine3": "",
+      "city": "Birmingham",
+      "postCode": "B1 1AA",
+      "insertedDate": "2023-03-20T00:00:00.000Z"
+    },
+    {
+      "uniqContactAddress": 6,
+      "clientId": 104,
+      "descriptionOf": "Main Residence",
+      "addressLine1": "321 Elm Street",
+      "addressLine2": "",
+      "addressLine3": "",
+      "city": "Leeds",
+      "postCode": "LS1 1AA",
+      "insertedDate": "2023-04-05T00:00:00.000Z"
+    },
+    {
+      "uniqContactAddress": 7,
+      "clientId": 104,
+      "descriptionOf": "Holiday Home",
+      "addressLine1": "987 Lake Shore Drive",
+      "addressLine2": "",
+      "addressLine3": "",
+      "city": "Brighton",
+      "postCode": "BN1 1AA",
+      "insertedDate": "2023-04-10T00:00:00.000Z"
+    },
+    {
+      "uniqContactAddress": 8,
+      "clientId": 105,
+      "descriptionOf": "Home",
+      "addressLine1": "654 Maple Drive",
+      "addressLine2": "",
+      "addressLine3": "",
+      "city": "Bristol",
+      "postCode": "BS1 1AA",
+      "insertedDate": "2023-05-18T00:00:00.000Z"
+    },
+    {
+      "uniqContactAddress": 9,
+      "clientId": 105,
+      "descriptionOf": "Office",
+      "addressLine1": "111 Technology Way",
+      "addressLine2": "Building C",
+      "addressLine3": "Suite 300",
+      "city": "Bristol",
+      "postCode": "BS2 2BB",
+      "insertedDate": "2023-05-25T00:00:00.000Z"
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 1,
+      "prefix": "Mr.",
+      "firstName": "John",
+      "middleName": "Michael",
+      "lastName": "Doe",
+      "suffix": "",
+      "description": "Primary contact for John Doe account",
+      "formal": "Mr. John Michael Doe",
+      "informal": "John Doe",
+      "mailingAddressId": 1,
+      "billingAddressId": 2
+    },
+    {
+      "contactId": 2,
+      "prefix": "Ms.",
+      "firstName": "Jane",
+      "middleName": "Elizabeth",
+      "lastName": "Smith",
+      "suffix": "PhD",
+      "description": "Primary contact for Jane Smith business account",
+      "formal": "Ms. Jane Elizabeth Smith, PhD",
+      "informal": "Jane Smith",
+      "mailingAddressId": 3,
+      "billingAddressId": 4
+    },
+    {
+      "contactId": 3,
+      "prefix": "",
+      "firstName": "Mike",
+      "middleName": "",
+      "lastName": "Johnson",
+      "suffix": "Jr.",
+      "description": "Primary contact for Mike Johnson family account",
+      "formal": "Mike Johnson Jr.",
+      "informal": "Mike Johnson",
+      "mailingAddressId": 5,
+      "billingAddressId": null
+    },
+    {
+      "contactId": 4,
+      "prefix": "Dr.",
+      "firstName": "Sarah",
+      "middleName": "Anne",
+      "lastName": "Wilson",
+      "suffix": "MD",
+      "description": "Primary contact for Sarah Wilson premium account",
+      "formal": "Dr. Sarah Anne Wilson, MD",
+      "informal": "Sarah Wilson",
+      "mailingAddressId": 6,
+      "billingAddressId": 7
+    },
+    {
+      "contactId": 5,
+      "prefix": "",
+      "firstName": "David",
+      "middleName": "Robert",
+      "lastName": "Brown",
+      "suffix": "",
+      "description": "Primary contact for David Brown corporate account",
+      "formal": "David Robert Brown",
+      "informal": "David Brown",
+      "mailingAddressId": 8,
+      "billingAddressId": 9
+    },
+    {
+      "contactId": 6,
+      "prefix": "Mrs.",
+      "firstName": "Mary",
+      "middleName": "Jane",
+      "lastName": "Doe",
+      "suffix": "",
+      "description": "Spouse contact for John Doe account",
+      "formal": "Mrs. Mary Jane Doe",
+      "informal": "Mary Doe",
+      "mailingAddressId": 1,
+      "billingAddressId": 2
+    }
+  ],
+  "contactNumbers": [
+    {
+      "contactNumberId": 1,
+      "clientId": 101,
+      "contactId": 1,
+      "number": "+44 7700 900123",
+      "description": "Primary Mobile"
+    },
+    {
+      "contactNumberId": 2,
+      "clientId": 101,
+      "contactId": 1,
+      "number": "+44 20 7946 0123",
+      "description": "Home"
+    },
+    {
+      "contactNumberId": 3,
+      "clientId": 101,
+      "contactId": 1,
+      "number": "+44 20 7946 0124",
+      "description": "Work"
+    },
+    {
+      "contactNumberId": 4,
+      "clientId": 102,
+      "contactId": 2,
+      "number": "+44 7700 900456",
+      "description": "Business Mobile"
+    },
+    {
+      "contactNumberId": 5,
+      "clientId": 102,
+      "contactId": 2,
+      "number": "+44 161 496 0123",
+      "description": "Office Direct"
+    },
+    {
+      "contactNumberId": 6,
+      "clientId": 102,
+      "contactId": 2,
+      "number": "+44 161 496 0124",
+      "description": "Assistant"
+    },
+    {
+      "contactNumberId": 7,
+      "clientId": 103,
+      "contactId": 3,
+      "number": "+44 7700 900789",
+      "description": "Mobile"
+    },
+    {
+      "contactNumberId": 8,
+      "clientId": 103,
+      "contactId": 3,
+      "number": "+44 121 496 0123",
+      "description": "Home"
+    },
+    {
+      "contactNumberId": 9,
+      "clientId": 104,
+      "contactId": 4,
+      "number": "+44 7700 900321",
+      "description": "Personal Mobile"
+    },
+    {
+      "contactNumberId": 10,
+      "clientId": 104,
+      "contactId": 4,
+      "number": "+44 113 496 0123",
+      "description": "Medical Office"
+    },
+    {
+      "contactNumberId": 11,
+      "clientId": 104,
+      "contactId": 4,
+      "number": "+44 113 496 0124",
+      "description": "Emergency Contact"
+    },
+    {
+      "contactNumberId": 12,
+      "clientId": 105,
+      "contactId": 5,
+      "number": "+44 7700 900654",
+      "description": "Corporate Mobile"
+    },
+    {
+      "contactNumberId": 13,
+      "clientId": 105,
+      "contactId": 5,
+      "number": "+44 117 496 0123",
+      "description": "Office"
+    },
+    {
+      "contactNumberId": 14,
+      "clientId": 105,
+      "contactId": 5,
+      "number": "+44 117 496 0124",
+      "description": "Home"
+    },
+    {
+      "contactNumberId": 15,
+      "clientId": 105,
+      "contactId": 5,
+      "number": "+44 117 496 0125",
+      "description": "Fax"
+    },
+    {
+      "contactNumberId": 16,
+      "clientId": 101,
+      "contactId": 6,
+      "number": "+44 7700 900125",
+      "description": "Mobile"
+    },
+    {
+      "contactNumberId": 17,
+      "clientId": 101,
+      "contactId": 6,
+      "number": "+44 20 7946 0125",
+      "description": "Work"
+    }
+  ],
+  "quoteTypes": [
+    {
+      "quoteTypeId": 1,
+      "code": "AUTO",
+      "typeOfBusiness": "Automotive",
+      "description": "Auto insurance policies covering vehicles, liability, and comprehensive coverage options"
+    },
+    {
+      "quoteTypeId": 2,
+      "code": "HOME",
+      "typeOfBusiness": "Property",
+      "description": "Home insurance policies covering residential properties, contents, and liability protection"
+    },
+    {
+      "quoteTypeId": 3,
+      "code": "LIFE",
+      "typeOfBusiness": "Life",
+      "description": "Life insurance policies providing financial protection for beneficiaries and estate planning"
+    }
+  ],
+  "quotes": [
+    {
+      "uniqQuote": 1,
+      "quoteGuid": "550e8400-e29b-41d4-a716-446655440001",
+      "uniqClient": 101,
+      "quoteTypeId": 1,
+      "description": "Auto insurance quote for 2020 Honda Civic with comprehensive coverage",
+      "insertedDate": "2024-01-15T00:00:00.000Z",
+      "insertedBy": "john.doe",
+      "effectiveDate": "2024-02-01T00:00:00.000Z",
+      "expirationDate": "2025-02-01T00:00:00.000Z",
+      "transactionType": "New Business"
+    },
+    {
+      "uniqQuote": 2,
+      "quoteGuid": "550e8400-e29b-41d4-a716-446655440002",
+      "uniqClient": 102,
+      "quoteTypeId": 2,
+      "description": "Home insurance quote for single family residence with premium coverage",
+      "insertedDate": "2024-01-16T00:00:00.000Z",
+      "insertedBy": "jane.smith",
+      "effectiveDate": "2024-02-15T00:00:00.000Z",
+      "expirationDate": "2025-02-15T00:00:00.000Z",
+      "transactionType": "New Business"
+    },
+    {
+      "uniqQuote": 3,
+      "quoteGuid": "550e8400-e29b-41d4-a716-446655440003",
+      "uniqClient": 103,
+      "quoteTypeId": 3,
+      "description": "Life insurance quote for term life policy with £500,000 coverage",
+      "insertedDate": "2024-01-17T00:00:00.000Z",
+      "insertedBy": "mike.johnson",
+      "effectiveDate": "2024-03-01T00:00:00.000Z",
+      "expirationDate": "2025-03-01T00:00:00.000Z",
+      "transactionType": "New Business"
+    },
+    {
+      "uniqQuote": 4,
+      "quoteGuid": "550e8400-e29b-41d4-a716-446655440004",
+      "uniqClient": 104,
+      "quoteTypeId": 1,
+      "description": "Auto insurance quote for 2019 Toyota Camry with basic coverage",
+      "insertedDate": "2024-01-18T00:00:00.000Z",
+      "insertedBy": "sarah.wilson",
+      "effectiveDate": "2024-02-20T00:00:00.000Z",
+      "expirationDate": "2025-02-20T00:00:00.000Z",
+      "transactionType": "Renewal"
+    },
+    {
+      "uniqQuote": 5,
+      "quoteGuid": "550e8400-e29b-41d4-a716-446655440005",
+      "uniqClient": 105,
+      "quoteTypeId": 2,
+      "description": "Home insurance quote for condominium with standard coverage options",
+      "insertedDate": "2024-01-19T00:00:00.000Z",
+      "insertedBy": "david.brown",
+      "effectiveDate": "2024-03-15T00:00:00.000Z",
+      "expirationDate": "2025-03-15T00:00:00.000Z",
+      "transactionType": "New Business"
+    },
+    {
+      "uniqQuote": 6,
+      "quoteGuid": "550e8400-e29b-41d4-a716-446655440006",
+      "uniqClient": 101,
+      "quoteTypeId": 2,
+      "description": "Home insurance quote for vacation property with flood coverage",
+      "insertedDate": "2024-01-20T00:00:00.000Z",
+      "insertedBy": "john.doe",
+      "effectiveDate": "2024-04-01T00:00:00.000Z",
+      "expirationDate": "2025-04-01T00:00:00.000Z",
+      "transactionType": "Mid-Term Adjustment"
+    },
+    {
+      "uniqQuote": 7,
+      "quoteGuid": "550e8400-e29b-41d4-a716-446655440007",
+      "uniqClient": 102,
+      "quoteTypeId": 3,
+      "description": "Life insurance quote for whole life policy with investment component",
+      "insertedDate": "2024-01-21T00:00:00.000Z",
+      "insertedBy": "jane.smith",
+      "effectiveDate": "2024-05-01T00:00:00.000Z",
+      "expirationDate": "2025-05-01T00:00:00.000Z",
+      "transactionType": "Rebroke"
+    },
+    {
+      "uniqQuote": 8,
+      "quoteGuid": "550e8400-e29b-41d4-a716-446655440008",
+      "uniqClient": 101,
+      "quoteTypeId": 1,
+      "description": "Auto insurance quote for motorcycle with liability coverage",
+      "insertedDate": "2024-01-22T00:00:00.000Z",
+      "insertedBy": "john.doe",
+      "effectiveDate": "2023-12-01T00:00:00.000Z",
+      "expirationDate": "2024-12-01T00:00:00.000Z",
+      "transactionType": "Cancellation"
+    }
+  ],
+  "quoteVariations": [
+    {
+      "quoteVariationId": 1,
+      "quoteGuid": "550e8400-e29b-41d4-a716-446655440001",
+      "variationGuid": "var-11111111-1111-4111-a111-111111111111",
+      "description": "Initial auto insurance quote for 2020 Honda Civic with basic coverage",
+      "createdBy": "john.doe",
+      "createdDate": "2024-01-15T09:00:00.000Z",
+      "status": "Complete",
+      "versionNumber": 1,
+      "quoteType": "Auto Insurance"
+    },
+    {
+      "quoteVariationId": 2,
+      "quoteGuid": "550e8400-e29b-41d4-a716-446655440001",
+      "variationGuid": "var-11111111-1111-4111-a111-111111111112",
+      "description": "Updated auto insurance quote with comprehensive coverage and lower deductible",
+      "createdBy": "john.doe",
+      "createdDate": "2024-01-16T14:30:00.000Z",
+      "status": "Complete",
+      "versionNumber": 2,
+      "quoteType": "Auto Insurance"
+    },
+    {
+      "quoteVariationId": 3,
+      "quoteGuid": "550e8400-e29b-41d4-a716-446655440001",
+      "variationGuid": "var-11111111-1111-4111-a111-111111111113",
+      "description": "Final auto insurance quote with additional roadside assistance",
+      "createdBy": "john.doe",
+      "createdDate": "2024-01-17T11:15:00.000Z",
+      "status": "Complete",
+      "versionNumber": 3,
+      "quoteType": "Auto Insurance"
+    },
+    {
+      "quoteVariationId": 4,
+      "quoteGuid": "550e8400-e29b-41d4-a716-446655440002",
+      "variationGuid": "var-22222222-2222-4222-a222-222222222221",
+      "description": "Initial home insurance quote for single family residence",
+      "createdBy": "jane.smith",
+      "createdDate": "2024-01-16T10:00:00.000Z",
+      "status": "Complete",
+      "versionNumber": 1,
+      "quoteType": "Home Insurance"
+    },
+    {
+      "quoteVariationId": 5,
+      "quoteGuid": "550e8400-e29b-41d4-a716-446655440002",
+      "variationGuid": "var-22222222-2222-4222-a222-222222222222",
+      "description": "Updated home insurance quote with premium coverage and jewellery rider",
+      "createdBy": "jane.smith",
+      "createdDate": "2024-01-18T15:45:00.000Z",
+      "status": "Incomplete",
+      "versionNumber": 2,
+      "quoteType": "Home Insurance"
+    },
+    {
+      "quoteVariationId": 6,
+      "quoteGuid": "550e8400-e29b-41d4-a716-446655440003",
+      "variationGuid": "var-33333333-3333-4333-a333-333333333331",
+      "description": "Initial life insurance quote for £500,000 term life policy",
+      "createdBy": "mike.johnson",
+      "createdDate": "2024-01-17T08:30:00.000Z",
+      "status": "Complete",
+      "versionNumber": 1,
+      "quoteType": "Life Insurance"
+    },
+    {
+      "quoteVariationId": 7,
+      "quoteGuid": "550e8400-e29b-41d4-a716-446655440003",
+      "variationGuid": "var-33333333-3333-4333-a333-333333333332",
+      "description": "Revised life insurance quote with £750,000 coverage and disability rider",
+      "createdBy": "mike.johnson",
+      "createdDate": "2024-01-19T13:20:00.000Z",
+      "status": "Superceded",
+      "versionNumber": 2,
+      "quoteType": "Life Insurance"
+    },
+    {
+      "quoteVariationId": 8,
+      "quoteGuid": "550e8400-e29b-41d4-a716-446655440003",
+      "variationGuid": "var-33333333-3333-4333-a333-333333333333",
+      "description": "Final life insurance quote with £1,000,000 coverage and multiple riders",
+      "createdBy": "mike.johnson",
+      "createdDate": "2024-01-20T16:00:00.000Z",
+      "status": "Complete",
+      "versionNumber": 3,
+      "quoteType": "Life Insurance"
+    },
+    {
+      "quoteVariationId": 9,
+      "quoteGuid": "550e8400-e29b-41d4-a716-446655440004",
+      "variationGuid": "var-44444444-4444-4444-a444-444444444441",
+      "description": "Auto insurance quote for 2019 Toyota Camry with basic coverage",
+      "createdBy": "sarah.wilson",
+      "createdDate": "2024-01-18T12:00:00.000Z",
+      "status": "Complete",
+      "versionNumber": 1,
+      "quoteType": "Auto Insurance"
+    },
+    {
+      "quoteVariationId": 10,
+      "quoteGuid": "550e8400-e29b-41d4-a716-446655440005",
+      "variationGuid": "var-55555555-5555-4555-a555-555555555551",
+      "description": "Condominium insurance quote with standard coverage",
+      "createdBy": "david.brown",
+      "createdDate": "2024-01-19T09:45:00.000Z",
+      "status": "Incomplete",
+      "versionNumber": 1,
+      "quoteType": "Home Insurance"
+    },
+    {
+      "quoteVariationId": 11,
+      "quoteGuid": "550e8400-e29b-41d4-a716-446655440005",
+      "variationGuid": "var-55555555-5555-4555-a555-555555555552",
+      "description": "Updated condominium insurance with enhanced personal property coverage",
+      "createdBy": "david.brown",
+      "createdDate": "2024-01-21T14:15:00.000Z",
+      "status": "Complete",
+      "versionNumber": 2,
+      "quoteType": "Home Insurance"
+    }
+  ],
+  "links": [
+    {
+      "linksId": 1,
+      "description": "Company Portal - Main Dashboard",
+      "websiteAddress": "https://portal.company.com/dashboard",
+      "scope": 0,
+      "userName": "admin",
+      "password": "password123"
+    },
+    {
+      "linksId": 2,
+      "description": "Insurance Carrier Portal - Aviva",
+      "websiteAddress": "https://www.aviva.co.uk/broker",
+      "scope": 0,
+      "userName": "broker001",
+      "password": "aviva_password"
+    },
+    {
+      "linksId": 3,
+      "description": "Insurance Carrier Portal - Direct Line",
+      "websiteAddress": "https://www.directline.com/broker",
+      "scope": 0,
+      "userName": "broker001",
+      "password": "directline_pass"
+    },
+    {
+      "linksId": 4,
+      "description": "FCA Regulatory Compliance Portal",
+      "websiteAddress": "https://www.fca.org.uk/firms",
+      "scope": 0,
+      "userName": "compliance_user",
+      "password": "fca_pass123"
+    },
+    {
+      "linksId": 5,
+      "description": "Client Document Portal",
+      "websiteAddress": "https://documents.company.com/client",
+      "scope": 1,
+      "userName": "client_access",
+      "password": "doc_password"
+    },
+    {
+      "linksId": 6,
+      "description": "Client Payment Portal",
+      "websiteAddress": "https://payments.company.com/client",
+      "scope": 1,
+      "userName": "payment_user",
+      "password": "pay_pass123"
+    },
+    {
+      "linksId": 7,
+      "description": "Client Communication Hub",
+      "websiteAddress": "https://communications.company.com/client",
+      "scope": 1,
+      "userName": "comm_user",
+      "password": "comm_pass"
+    },
+    {
+      "linksId": 8,
+      "description": "Quote Comparison Tool",
+      "websiteAddress": "https://tools.company.com/quote-compare",
+      "scope": 2,
+      "userName": "quote_user",
+      "password": "quote_pass123"
+    },
+    {
+      "linksId": 9,
+      "description": "Underwriting Portal",
+      "websiteAddress": "https://underwriting.company.com",
+      "scope": 2,
+      "userName": "underwriter",
+      "password": "under_pass"
+    },
+    {
+      "linksId": 10,
+      "description": "Risk Assessment Tool",
+      "websiteAddress": "https://risk.company.com/assessment",
+      "scope": 2,
+      "userName": "risk_analyst",
+      "password": "risk_pass123"
+    },
+    {
+      "linksId": 11,
+      "description": "Contact Verification System",
+      "websiteAddress": "https://verification.company.com/contact",
+      "scope": 3,
+      "userName": "verify_user",
+      "password": "verify_pass"
+    },
+    {
+      "linksId": 12,
+      "description": "Contact Communication Log",
+      "websiteAddress": "https://logs.company.com/contact",
+      "scope": 3,
+      "userName": "log_user",
+      "password": "log_pass123"
+    },
+    {
+      "linksId": 13,
+      "description": "System Administration Panel",
+      "websiteAddress": "https://admin.company.com/system",
+      "scope": 4,
+      "userName": "sysadmin",
+      "password": "admin_pass123"
+    },
+    {
+      "linksId": 14,
+      "description": "User Management Portal",
+      "websiteAddress": "https://admin.company.com/users",
+      "scope": 4,
+      "userName": "user_admin",
+      "password": "user_pass123"
+    }
+  ]
+}
